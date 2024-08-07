@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#console {
+    width: 80%;
+    max-width: 800px;
+    border: 1px solid green;
+    padding: 20px;
+    box-shadow: 0 0 10px green;
+}
+
+#output {
+    white-space: pre-wrap;
+}
+
+#input {
+    width: 100%;
+    border: none;
+    background: none;
+    color: green;
+    font-family: monospace;
+    font-size: 16px;
+    outline: none;
+}
