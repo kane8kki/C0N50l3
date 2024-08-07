@@ -13,8 +13,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 const audio = new Audio('crash.mp3');
                 audio.play();
 
-                // Redirection vers YouTube
-                window.location.href = "https://www.youtube.com";
+                // Attendre 3,75 secondes avant la redirection
+                setTimeout(() => {
+                    window.location.href = "https://www.youtube.com";
+                }, 3750);
             } else {
                 outputField.textContent += `\nCommande inconnue: ${command}`;
             }
