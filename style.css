@@ -4,14 +4,11 @@ body {
     font-family: Consolas, monaco, monospace;
     margin: 0;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 #console {
-    width: 80%;
-    max-width: 800px;
+    width: 100%;
+    padding: 20px;
 }
 
 #output {
