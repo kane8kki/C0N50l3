@@ -9,12 +9,17 @@ document.addEventListener("DOMContentLoaded", () => {
             inputField.value = "";
 
             if (command === "$/Cr4shFu5380x/") {
+                // Jouer le son
+                const audio = new Audio('crash.mp3');
+                audio.play();
+
+                // Redirection vers YouTube
                 window.location.href = "https://www.youtube.com";
             } else {
                 outputField.textContent += `\nCommande inconnue: ${command}`;
             }
 
-            // Scroll to the bottom of the console
+            // Faire défiler vers le bas de la console
             outputField.scrollTop = outputField.scrollHeight;
         }
     });
