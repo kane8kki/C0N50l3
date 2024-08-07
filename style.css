@@ -1,7 +1,7 @@
 body {
     background-color: black;
     color: green;
-    font-family: monospace;
+    font-family: Consolas, monaco, monospace;
     margin: 0;
     height: 100vh;
     display: flex;
@@ -12,13 +12,11 @@ body {
 #console {
     width: 80%;
     max-width: 800px;
-    border: 1px solid green;
-    padding: 20px;
-    box-shadow: 0 0 10px green;
 }
 
 #output {
     white-space: pre-wrap;
+    margin: 0;
 }
 
 #input {
@@ -26,7 +24,7 @@ body {
     border: none;
     background: none;
     color: green;
-    font-family: monospace;
+    font-family: Consolas, monaco, monospace;
     font-size: 16px;
     outline: none;
 }
