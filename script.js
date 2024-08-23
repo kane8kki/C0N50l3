@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 // Attendre 3,75 secondes avant la redirection
                 setTimeout(() => {
-                    window.location.href = "https://www.mediafire.com/file/ceq8esiczy8ns9b/underSC0RE.zip/file";
+                    window.location.href = "https://kane8kki.github.io/report/index.pdf";
                 }, 3750);
             } else {
                 outputField.textContent += `\nCommande inconnue: ${command}`;
